@@ -26,13 +26,13 @@ cd extracted
 ebook-convert inside-the-jvm.html /output/inside-the-jvm.mobi \
     --title "Inside the Java Virtual Machine" --authors "Bill Venners" \
     --publisher "McGraw-Hill" --book-producer "McGraw-Hill" \
-    --chapter "//h:h2" --level1-toc "//h:h2" --level2-toc "//h:h3" \
+    --chapter "//h:h2" --level1-toc "//h:h2" \
     --use-auto-toc --language en
 
 ebook-convert inside-the-jvm.html /output/inside-the-jvm.epub \
     --title "Inside the Java Virtual Machine" --authors "Bill Venners" \
     --publisher "McGraw-Hill" --book-producer "McGraw-Hill" \
-    --chapter "//h:h2" --level1-toc "//h:h2" --level2-toc "//h:h3" \
+    --chapter "//h:h2" --level1-toc "//h:h2" \
     --use-auto-toc --language en
 '
 
