@@ -5,8 +5,8 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 cat <<-'EOF' | docker build -t chm-to-ebook -f - .
 FROM ubuntu:22.04
-RUN apt-get update && apt-get install -y wget xz-utils python3 python3-pip unzip \
-    libegl1 libopengl0 libxcb-cursor0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 \
+RUN apt-get update && apt-get install -y wget xdg-utils xz-utils python3 python3-pip unzip \
+    libegl1 libopengl0 libglx0 libxcb-cursor0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 \
     libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xkb1 libxkbcommon-x11-0
 RUN wget -O- https://download.calibre-ebook.com/linux-installer.sh | sh /dev/stdin
 RUN pip3 install beautifulsoup4 lxml
