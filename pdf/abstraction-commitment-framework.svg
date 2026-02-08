@@ -1,0 +1,35 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="700" height="320" fill="#fafafa"/>
+  <text x="350" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#333">The Abstraction-Commitment Framework</text>
+  <line x1="80" y1="260" x2="620" y2="260" stroke="#333" stroke-width="2"/>
+  <line x1="80" y1="260" x2="80" y2="60" stroke="#333" stroke-width="2"/>
+  <polygon points="620,260 610,255 610,265" fill="#333"/>
+  <polygon points="80,60 75,70 85,70" fill="#333"/>
+  <text x="350" y="295" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#333">Commitment Level</text>
+  <text x="350" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#666">(cost of change × irreversibility)</text>
+  <text x="30" y="160" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#333" transform="rotate(-90, 30, 160)">Appropriate Abstraction</text>
+  <text x="100" y="278" font-family="system-ui, sans-serif" font-size="11" fill="#666">Low</text>
+  <text x="590" y="278" font-family="system-ui, sans-serif" font-size="11" fill="#666">High</text>
+  <text x="88" y="250" font-family="system-ui, sans-serif" font-size="11" fill="#666">Concrete</text>
+  <text x="88" y="75" font-family="system-ui, sans-serif" font-size="11" fill="#666">Abstract</text>
+  <line x1="120" y1="230" x2="580" y2="90" stroke="#2563eb" stroke-width="3" stroke-dasharray="8,4"/>
+  <polygon points="120,230 580,230 580,90" fill="#dcfce7" fill-opacity="0.5"/>
+  <polygon points="120,230 120,90 580,90" fill="#fef3c7" fill-opacity="0.5"/>
+  <text x="420" y="200" font-family="system-ui, sans-serif" font-size="11" fill="#166534" font-style="italic">Under-abstracted</text>
+  <text x="420" y="215" font-family="system-ui, sans-serif" font-size="10" fill="#166534">(brittle, hard to change)</text>
+  <text x="180" y="115" font-family="system-ui, sans-serif" font-size="11" fill="#92400e" font-style="italic">Over-abstracted</text>
+  <text x="180" y="130" font-family="system-ui, sans-serif" font-size="10" fill="#92400e">(unnecessary complexity)</text>
+  <circle cx="160" cy="210" r="8" fill="#22c55e"/>
+  <text x="175" y="205" font-family="system-ui, sans-serif" font-size="10" fill="#333">Internal utilities</text>
+  <text x="175" y="218" font-family="system-ui, sans-serif" font-size="10" fill="#333">Prototypes</text>
+  <circle cx="350" cy="160" r="8" fill="#22c55e"/>
+  <text x="365" y="155" font-family="system-ui, sans-serif" font-size="10" fill="#333">Domain models</text>
+  <text x="365" y="168" font-family="system-ui, sans-serif" font-size="10" fill="#333">Service interfaces</text>
+  <circle cx="540" cy="110" r="8" fill="#22c55e"/>
+  <text x="450" y="100" font-family="system-ui, sans-serif" font-size="10" fill="#333">Public APIs</text>
+  <text x="450" y="113" font-family="system-ui, sans-serif" font-size="10" fill="#333">Protocols, Standards</text>
+  <line x1="100" y1="50" x2="130" y2="50" stroke="#2563eb" stroke-width="3" stroke-dasharray="8,4"/>
+  <text x="138" y="54" font-family="system-ui, sans-serif" font-size="10" fill="#333">Appropriate balance</text>
+  <circle cx="250" cy="50" r="6" fill="#22c55e"/>
+  <text x="262" y="54" font-family="system-ui, sans-serif" font-size="10" fill="#333">Well-calibrated examples</text>
+</svg>
